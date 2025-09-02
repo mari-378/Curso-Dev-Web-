@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 6</title>
+</head>
+<body>
+    <h1>Formulário 6</h1>
+    <form oninput="resultado.value=parseINT(a.value) + parseInt(b.value)">
+        <p>
+        <label for="a">Número 1:</label>
+        <input type="number" name="a" id="a">
+        </p>
+        
+        <p>
+        <label for="b">Número 2:</label>
+        <input type="number" name="b" id="b">
+        </p>
+
+        Resultado: <output name="resultado" for="a b"></output>
+        
+    </form>
+    
+</body>
+</html>
